@@ -167,13 +167,14 @@ The script operates in two modes:
 
 ---
 
-## Complete Add2ABM procedure in 20 easy steps
+## Complete Add2ABM procedure in 21 easy steps
 
 1. Disable Activation Lock, if currently enabled
 2. Shut down Mac
 3. Hold Touch ID/power button to boot into _Options_ (macOS Recovery)
 4. Authenticate as volume owner
 5. Connect to network (if not connected)
+6. Open **Disk Uitility** and mount the internal drive
 6. Open **Utilities → Terminal** (or use ⌘⇧T)
 7. Execute the script to backup user records and reboot
 8. Unlock disk upon boot, if encrypted
