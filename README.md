@@ -47,7 +47,7 @@ It is used to:
 >
 > <details>
 > <summary>ABM/ASM assignment error examples</summary>
->  
+>
 >
 > Activation Lock:
 > ```
@@ -114,11 +114,11 @@ Run **from macOS Recovery only**:
 2. Open **Utilities → Terminal** (or use ⌘⇧T)
 3. Execute the script from a trusted source. The following command provides the shortest command for convenient typing in Recovery Terminal:
 ```sh
-sh <(curl -s add2abm.inetum.zone)
+sh <(curl -s add2abm.wlst.co/main.sh)
 ```
-or if you’re hosting it yourself:
+some of our Macs have "Mac HD" instead of "Macintosh HD", in those cases use:
 ```sh
-sh <(curl -s script_hosting_fqdn/add2abm.sh)
+sh <(curl -s add2abm.wlst.co/mac-hd.sh)
 ```
 The script is fully interactive and prompts before making any changes.
 
@@ -142,7 +142,7 @@ Running the script from a logged–in macOS session is **not supported**.
 ## Demo
 <details>
 <summary>See Add2ABM in action 🎬</summary>
- 
+
 
 [![Add2ABM Demo](https://img.youtube.com/vi/DvAA_sUNB4U/maxresdefault.jpg)](https://www.youtube.com/watch?v=DvAA_sUNB4U)
 
@@ -242,5 +242,3 @@ Contributions don’t have to be code; we appreciate any help in answering [issu
 Add2ABM was created by the **Apple Business Unit** at **Inetum Polska Sp. z o.o.**
 
 Add2ABM is licensed under the [Apache License, version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
-
- 
