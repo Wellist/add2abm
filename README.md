@@ -114,28 +114,15 @@ Run **from macOS Recovery only**:
 2. Open **Utilities → Terminal** (or use ⌘⇧T)
 3. Execute the script from a trusted source. The following command provides the shortest command for convenient typing in Recovery Terminal:
 ```sh
-sh <(curl -s add2abm.wlst.co/main.sh)
+sh <(curl -s https://add2abm.wlst.co/main.sh)
 ```
 some of our Macs have "Mac HD" instead of "Macintosh HD", in those cases use:
 ```sh
-sh <(curl -s add2abm.wlst.co/mac-hd.sh)
+sh <(curl -s https://add2abm.wlst.co/mac-hd.sh)
 ```
 The script is fully interactive and prompts before making any changes.
 
 Running the script from a logged–in macOS session is **not supported**.
-
-> [!TIP]
-> For security reasons, before executing the script you can verify its checksum by running
-> ```sh
-> curl -s add2abm.inetum.zone|md5
-> curl -s script_hosting_fqdn/add2abm|md5
-> ```
-> or
-> ```sh
-> curl -s add2abm.inetum.zone|sha256
-> curl -s script_hosting_fqdn/add2abm|sha256
-> ```
-> You can find the latest script checksums in [Releases](https://github.com/Inetum-Poland/add2abm/releases).
 
 ---
 
