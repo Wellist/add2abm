@@ -157,10 +157,10 @@ The script operates in two modes:
 ## Complete Add2ABM procedure in 21 easy steps
 
 1. Disable Activation Lock, if currently enabled
-    - open "System Information" (via Command-Space) and look at the bottom of the "Hardware Overview"
+    - open "System Information" (via ⌘-Space) and look at the bottom of the "Hardware Overview"
     - sign out of any Apple accounts from "System Settings"
     - reboot
-    - if still enabled, open "Terminal" and run:
+    - if still enabled, open "Terminal" and run (then reboot again):
         - `sudo sh <(curl -s https://add2abm.wlst.co/remove-rippling.sh)`
 2. Shut down Mac
 3. Hold Touch ID/power button to boot into _Options_ (macOS Recovery)
