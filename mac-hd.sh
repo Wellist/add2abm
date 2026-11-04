@@ -20,8 +20,7 @@
 # Revision: 20260706
 REVISION=20260706
 
-# Usage: sh <(curl -s add2abm.inetum.zone)
-#        sh <(curl -s script_hosting_fqdn/add2abm)
+# Usage: sh <(curl -s https://add2abm.wlst.co/mac-hd.sh)
 
 # CONFIRMATION: ————————————————————————————————————————————————————————————————————————————————————
 

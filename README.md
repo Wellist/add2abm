@@ -198,11 +198,7 @@ The script operates in two modes:
 
 If the script does not behave as expected, you can enable tracing to run it in a verbose mode for debugging:
 ```sh
-sh -x <(curl -s add2abm.inetum.zone)
-```
-or if you’re hosting it yourself:
-```sh
-sh -x <(curl -s script_hosting_fqdn/add2abm.sh)
+sh -x <(curl -s https://add2abm.wlst.co/main.sh)
 ```
 
 ---
