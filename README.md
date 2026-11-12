@@ -161,7 +161,7 @@ The script operates in two modes:
     - sign out of any Apple accounts from "System Settings"
     - reboot
     - if still enabled, open "Terminal" and run (then reboot again):
-        - `sudo sh <(curl -s https://add2abm.wlst.co/remove-rippling.sh)`
+        - `curl -s https://add2abm.wlst.co/remove-rippling.sh | sudo sh`
 2. Shut down Mac
 3. Hold Touch ID/power button to boot into _Options_ (macOS Recovery)
 4. Authenticate as volume owner
