@@ -137,11 +137,11 @@ Re–triggering the Setup Assistant resets end user’s consent to macOS Softwar
 <li>Boot into macOS Recovery</li>
 <li>Open <strong>Utilities → Terminal</strong> (or use ⌘⇧T)</li>
 <li>Execute the script from a trusted source. The following command provides the shortest command for convenient typing in Recovery Terminal:
-<code>sh
+<code>
 sh &lt;(curl -s https://add2abm.wlst.co/main.sh)
 </code>
 some of our Macs have &#8220;Mac HD&#8221; instead of &#8220;Macintosh HD&#8221;, in those cases use:
-<code>sh
+<code>
 sh &lt;(curl -s https://add2abm.wlst.co/mac-hd.sh)
 </code>
 The script is fully interactive and prompts before making any changes.</li>
@@ -233,7 +233,7 @@ The script is fully interactive and prompts before making any changes.</li>
 <h2 id="troubleshooting">Troubleshooting</h2>
 
 <p>If the script does not behave as expected, you can enable tracing to run it in a verbose mode for debugging:
-<code>sh
+<code>
 sh -x &lt;(curl -s https://add2abm.wlst.co/main.sh)
 </code></p>
 

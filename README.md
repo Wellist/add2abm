@@ -113,11 +113,11 @@ Run **from macOS Recovery only**:
 1. Boot into macOS Recovery
 2. Open **Utilities → Terminal** (or use ⌘⇧T)
 3. Execute the script from a trusted source. The following command provides the shortest command for convenient typing in Recovery Terminal:
-```sh
+```
 sh <(curl -s https://add2abm.wlst.co/main.sh)
 ```
 some of our Macs have "Mac HD" instead of "Macintosh HD", in those cases use:
-```sh
+```
 sh <(curl -s https://add2abm.wlst.co/mac-hd.sh)
 ```
 The script is fully interactive and prompts before making any changes.
@@ -197,7 +197,7 @@ The script operates in two modes:
 ## Troubleshooting
 
 If the script does not behave as expected, you can enable tracing to run it in a verbose mode for debugging:
-```sh
+```
 sh -x <(curl -s https://add2abm.wlst.co/main.sh)
 ```
 
